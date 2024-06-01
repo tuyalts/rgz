@@ -1,0 +1,232 @@
+.container {
+    width: 100%;
+    max-width: 1024px;
+    padding: 0 15px;
+    margin: 86px auto;
+    
+}
+.content {
+    /* float: left; */
+    width: 70%;
+    box-sizing: border-box;
+    padding-right: 15px;
+}
+.menu {
+    float: right;
+    width: 30%;
+    /* max-width: 350px; */
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-color: #FFFFFF;
+    color: #353945;
+    border-left: 3px solid #f0f0f0;
+}
+header {
+    background-color: #FFFFFF;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+@media (max-width: 600px) {
+    .left, .right {
+        width: 100%; /* Каждый элемент растягивается от края до края */
+    }
+  }
+body {
+    overflow-x: hidden;
+    background-color: #f2feff;
+    text-decoration: none;
+    font-family: 'PFCentroSansPro';
+    margin: 0;
+}
+
+.b-header-logo {
+    width: 20%; 
+    margin: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 12px 10px;
+    font-size: 18px;
+    line-height: 20px;
+    display: inline-block;
+    color: #353945;
+    font-family: 'PFCentroSansPro-Medium';
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.menu ul li {
+    margin: 20px;
+    padding: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #353945;
+}
+
+h1 {
+    font-family: 'PPFCentroSansPro-Black';
+    font-size: 26px;
+    color: #00508F;
+    margin: 0 0 15px ;
+}
+h2 {
+    color: #353945; 
+    font-family: 'PFCentroSansPro-Bold';
+    
+}
+p {
+    font-family: 'PPFCentroSansPro-Regular';
+    color: #777E90;
+    margin: 16px;
+    margin-right: 10px;
+}
+a {
+    font-family: 'PPFCentroSansPro-Regular';
+    color: #777E90;
+    margin: 16px;
+    margin-right: 10px;
+}
+.b-main-info_list {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 22px;
+    width: 58%;
+    height: 100%;
+    margin: 15px;
+    padding: 15px 16px;
+    border: 1px solid #f0f0f0;
+    border-radius: 20px 0;
+    background-color: #fcfcfd;
+    box-shadow: 20px 30px 10px rgba(15, 15, 15, .1);
+}
+.b-main-info_nolist {
+    display: flex;
+    padding: 0 15px 0 0;
+    flex-wrap: wrap;
+
+}
+li::marker {
+    color: #50b848;
+    font-size: 25px;
+}
+.container-news {
+    width: 100%;
+    padding: 0 15px;
+    margin: 86px 10px 0 10px;   
+}
+.container-news:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.new {
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid green;
+    border-radius: 7%;
+    background-color: #dfefea;
+    padding: 10px;
+    width: 50%;
+    margin: 10px;
+    max-width: 300px;
+    /* height: 500px; */
+}
+.b-news-img {
+    margin: 20px;
+    width: 280px;
+    height: 210px;
+    overflow: hidden;
+    
+}
+.news-button {
+    display: inline-block;
+    background-color: #50b848;
+    border-radius: 40px;
+    text-align: center;
+    font-family: "PFCentroSansPro-Medium";
+    font-size: 16px;
+    line-height: 18px;
+    margin: 10px;
+    padding: 17px 40px;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer {
+    width: 70%;
+    /* box-sizing: content-box; */
+    background-color: #353945;
+}
+.b-footer-info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-family: 'PFCentroSansPro-Regular';
+}
+.b-footer-info a {
+    text-decoration: none;
+    color: #777E90;
+    font-size: 16px;
+    padding: 5px;
+}
+
+
+.courses {
+    display: flex;
+    margin-bottom: 15px;
+    border: 1px solid green;
+    width: max-content;
+    padding: 5px;
+    background-color: #dfefea;
+}
+
+.course-item {
+    margin: 5px;
+    /* width: max-content; */
+    border: 1px solid green;
+    padding: 5px;
+    background-color: #f0f0f0;
+}
+
+.course-item-title {
+    font-weight: 700;
+    font-size: 18px;
+}
+.course-item-value {
+    font-size: 32px;
+    font-weight: 300;
+}
+.row {
+    border: 1px solid green;
+    border-radius: 10px;
+    width: max-content;
+    display: inline-block;
+    background-color: #f0f0f0;
+}
+.col {
+    margin: 10px;
+}
+.col p {
+    color: black;
+    font-family: 'PFCentroSansPro-Bold';
+}
+select {
+    height: 30px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+
+@font-face {    
+    font-family: "PFCentroSansPro"; 
+    src: url("D:/2курс/веб/RGZ/fonts/PFCentroSansPro") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+  } 
